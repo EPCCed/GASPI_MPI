@@ -1,36 +1,15 @@
-This is a collection of examples illustrating interoperability aspects 
-between MPI and GPI-2 by mixing specific communication code parts in a 
-parallel program.
+The INTERTWinE project is committed to helping application developers to write
+scalable code that can run on the world's largest supercomputers, by employing
+combinations of existing programming models (so called hybridisation) in a way
+that future-proofs the development work for the next generation of HPC systems.
 
-Each example tries to solve the same problem, of solving a system of linear 
-equations in parallel using the Jacobi iterative method, as described in the 
-INTERTWinE Best Practice Guide for Writing GASPI-MPI interoperable programs.
+This resource pack is to help developers interoperate GASPI with MPI to allow
+effective and efficient asynchronous one-sided communication in key kernels
+(incremental porting of applications), which cannot be achieved with MPI
+one-sided routines. There are two aspects to interoperability: memory management
+and communication management.
 
-For compiling the examples, one should make sure that the environment variables
-MPI_HOME and GASPI_HOME are set, pointing to the MPI and the GPI installation 
-used, respectively. 
+Other programming model/ API combinations are addressed in other resource packs
+available from the INTERTWinE Developer Hub
+(http://www.intertwine-project.eu/developer-hub).
 
-GPI-2 must be installed with the --with-mpi option, using the same MPI installation 
-(i.e. the one pointed by the MPI_HOME environment variable). Depending on what MPI 
-version used, it may be necessary to change the MPI include and library directories 
-in the Makefile (relative to MPI_HOME).
-
-The example jacobi_mpi.cpp is an MPI program that solves a linear system with the 
-Jacobi method, being considered the starting MPI program that is incrementally 
-transformed by replacing MPI with GPI-2 communication sections. 
-The jacobi_mixed.cpp example replaces the MPI_Isend/MPI_Irecv primitives
-from the previous example with GASPI communication primitives. 
-The example use_gaspi_mem_in_mpi_comm.cpp further modifies this example by using 
-memory allocated in a GASPI segment as a buffer in MPI communication, before 
-performing GASPI communication, instead of using a separate buffer for this and 
-explicitly moving its content into the GASPI segment.
-The example use_app_provided_mem_for_segments.cpp reuses the memory allocated by the 
-application and previously modified by an MPI operation, rather than allocating 
-new memory for the GASPI segments used in GASPI communication.
-The example use_app_provided_mem_for_segments_lib.cpp encapsulates the whole 
-GASPI communication into a library function that is called in an MPI program.
-
-For running the examples, a file with the names of hosts to use must be created 
-first. All the examples can be run with the mpirun command (or similar) specifying
-the machine file (with the --machinefile option) and the name of the binary. 
-The user is required to interactively provide the size of the square matrix to use. 
