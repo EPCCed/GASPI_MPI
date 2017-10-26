@@ -1,3 +1,4 @@
+#This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu>
 How-to install and run iPic3D on your (local) Linux machine.
 Doesn't need sudo or root permissions, everything could be installed locally.
 

@@ -1,3 +1,4 @@
+#This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu>
 To quickly check the hdf5 output in your terminal, use something like this:
 
 $> h5ls proc0.hdf

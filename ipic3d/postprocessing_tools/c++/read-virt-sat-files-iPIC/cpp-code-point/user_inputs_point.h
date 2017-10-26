@@ -1,3 +1,4 @@
+/* This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu> */
     float x_satellite_user = 22.0000;         // x-coordinate
     float y_satellite_user = 7.50000;         // y-coordinate
     float z_satellite_user = 5.000000;         // z-coordinate

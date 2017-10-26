@@ -1,3 +1,4 @@
+#This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu>
 parsek-hdf-to-vtk-verX.sh is a bahs script which generates a c++ hdf-to-vtk
 code based on the original idea of Stefano Markidis. Ver2 supports HDF5 1.6.5
 to 1.6.7. Ver3 supports HDF5 1.8.8 and 1.8.9.

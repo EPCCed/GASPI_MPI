@@ -1,3 +1,4 @@
+#This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu>
 cmake_minimum_required(VERSION 2.8.8) 
 # compiler set in ../cmake/cmake_template.cmake.XeonPhi
 #message ("for Xeon Phi:")

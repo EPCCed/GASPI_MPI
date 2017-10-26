@@ -1,3 +1,4 @@
+/* This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu> */
 /***************************************************************************
 
     fft-virtsat-point-data.cpp  -  FFT of 1D real data extracted with process-virtual-sat-point.cpp

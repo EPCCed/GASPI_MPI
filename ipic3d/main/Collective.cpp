@@ -1,3 +1,4 @@
+/* This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu> */
 /* iPIC3D was originally developed by Stefano Markidis and Giovanni Lapenta. 
  * This release was contributed by Alec Johnson and Ivy Bo Peng.
  * Publications that use results from iPIC3D need to properly cite  
@@ -1229,8 +1230,11 @@ Collective::~Collective() {
   delete[]rhoINIT;
   delete[]rhoINJECT;
 
-  delete[]pitch_angle;
-  delete[]energy;
+  if (nstestpart > 0)
+  {
+    delete[]pitch_angle;
+    delete[]energy;
+  }
 }
 /*! Print Simulation Parameters */
 void Collective::Print() {

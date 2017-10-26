@@ -1,3 +1,4 @@
+/* This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu> */
     char vtk_filename[]="/media/Elements/Data_and_Runs/iPIC3D_data/tred46/rho_tot_electrons_cycle12000.vtk";
     string slice_normal="y";
     string var_type="scalar";

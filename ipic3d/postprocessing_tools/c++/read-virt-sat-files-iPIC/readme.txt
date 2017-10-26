@@ -1,3 +1,4 @@
+#This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu>
 ﻿Author: Alexander E. Vapirev, KU Leuven, Afdeling Plasma-astrofysica
 
 Note  : All *-2D scripts and folders are for the Parsek2D case. They can be easily merged with a simple 2D/3D-switch option in one script/code but are left separate for clarity (and due to laziness).

@@ -1,3 +1,4 @@
+/* This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu> */
 // ConfigFile.h
 // Class for reading named values from configuration files
 // Richard J. Wagner v2.1 24 May 2004 wagnerr@umich.edu

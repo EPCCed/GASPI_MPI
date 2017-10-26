@@ -1,3 +1,4 @@
+#This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu>
 1) load all the data in MATLAB workspace using parsek2D.m
 2) execute analysis tools, ie pdf.m, energy.m, A_jmovie,...
 

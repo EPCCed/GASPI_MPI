@@ -1,3 +1,4 @@
+/* This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu> */
     float x_satellite_user = 20.878;         // x-coordinate
     float y_satellite_user = 4.94141;         // y-coordinate
     int const nproc = 2048;                           // number of files to search into

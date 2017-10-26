@@ -1,3 +1,4 @@
+/* This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu> */
 /***************************************************************************                        
     Extract 2D slice from a 3D VTK from iPIC3D and perform a 2D FFT in space
 

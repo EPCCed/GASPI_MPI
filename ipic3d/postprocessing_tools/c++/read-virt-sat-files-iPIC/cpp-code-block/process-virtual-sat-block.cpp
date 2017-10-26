@@ -1,3 +1,4 @@
+/* This release was prepared by Dana Akhmetova <danaak@kth.se>/<danieka@gmail.com> on behalf of the INTERTWinE European Exascale Project <http://www.intertwine-project.eu> */
 /***************************************************************************
 
     process-virtual-sat.cpp  -  postprocessing program to extract data from VirtualSatellites* files from iPIC3D
